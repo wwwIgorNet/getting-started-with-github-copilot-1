@@ -142,3 +142,22 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.activity-card .participants-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.activity-card .participants-list li {
+  background-color: #e3f2fd;
+  color: #1565c0;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #bbdefb;
+}
